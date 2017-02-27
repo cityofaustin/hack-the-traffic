@@ -8,7 +8,6 @@ Please let us know you're coming by registering on our [Eventbrite Page](https:/
 ### Communicate with Your Fellow Hackers
 We'll be using Slack messaging leading up to and during the hackathon. 
 1. Add yourself to [Open Austin's Slack Team](http://slack.open-austin.org)
-
 2. Join the [#HackTheTraffic Channel](https://open-austin.slack.com/messages/hackthetraffic/)
 
 ### Download the Data
@@ -23,6 +22,9 @@ Each row in this dataset represents one Bluetooth enabled device that detected a
 [Traffic Summary Records](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Match-Summary-Records/v7zg-5jg9)
 
 The traffic summary records contain aggregate travel time and speed summaries based on the individual traffic match records. Each row in the dataset summarizes average travel time and speed along a sensor-equipped roadway segment in 15 minute intervals.
+
+### Read the Docs
+Hardware and software documentation is availabe in the [docs folder](https://github.com/cityofaustin/hack-the-traffic/tree/master/docs)
 
 ### Project Ideas
 
