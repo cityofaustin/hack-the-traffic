@@ -1,12 +1,14 @@
-# Welcome to the ATX Hack the Traffic Repository
+# ATX Hack the Traffic
+Sat, March 4, 2017
+12:00 PM – 6:00 PM CST
 
-### Register for our Event
+### Register for Our Event
 Please let us know you're coming by registering on our [Eventbrite Page](https://www.eventbrite.com/e/atx-hack-the-traffic-registration-31722953207?)
 
-### Communicate with your fellow hackers on Slack
-Step 1: join [Open Austin's Slack Team](http://slack.open-austin.org)
+### Communicate with Your Fellow Hackers
+1. [Open Austin's Slack Team](http://slack.open-austin.org)
 
-Step 2: join the [#HackTheTraffic Channel](https://open-austin.slack.com/messages/hackthetraffic/)
+2. Join the [#HackTheTraffic Channel](https://open-austin.slack.com/messages/hackthetraffic/)
 
 ### Download the Data
 [Individual Address Records](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Addresses/qnpj-zrb9/data)
@@ -18,3 +20,4 @@ Each row in this dataset represents one Bluetooth enabled device that detected a
 [Traffic Summary Records](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Match-Summary-Records/v7zg-5jg9)
 The traffic summary records contain aggregate travel time and speed summaries based on the individual traffic match records. Each row in the dataset summarizes average travel time and speed along a sensor-equipped roadway segment in 15 minute intervals.
 
+### Project Ideas
