@@ -7,6 +7,7 @@ Please let us know you're coming by registering on our [Eventbrite Page](https:/
 
 ### Communicate with Your Fellow Hackers
 We'll be using Slack messaging leading up to and during the hackathon. 
+
 1. Add yourself to [Open Austin's Slack Team](http://slack.open-austin.org)
 
 2. Join the [#HackTheTraffic Channel](https://open-austin.slack.com/messages/hackthetraffic/)
