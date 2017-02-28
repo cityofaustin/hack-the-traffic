@@ -12,6 +12,10 @@ Let us know you're coming by registering on our [Eventbrite Page](https://www.ev
 2. Join the [#HackTheTraffic Channel](https://open-austin.slack.com/messages/hackthetraffic/)
 
 ### Download the Data
+[Bluetooth Travel Sensor Locations](https://data.austintexas.gov/dataset/Travel-Sensors/6yd9-yz29)
+
+This dataset contains information about travel sensor locations in Austin, TX. 
+
 [Individual Address Records](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Addresses/qnpj-zrb9/data)
 
 Each row in this dataset represents a Bluetooth device that was detected by one of our sensors. Each record contains a detected device’s anonymized Media Access Control (MAC) address along with the time and location the device was detected. These records alone are not traffic data but can be post-processed to measure the movement of detected devices through the roadway network
