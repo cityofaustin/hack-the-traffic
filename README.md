@@ -3,10 +3,9 @@ Sat, March 4, 2017
 12:00 PM – 6:00 PM CST
 
 ### Register for Our Event
-Please let us know you're coming by registering on our [Eventbrite Page](https://www.eventbrite.com/e/atx-hack-the-traffic-registration-31722953207?)
+Let us know you're coming by registering on our [Eventbrite Page](https://www.eventbrite.com/e/atx-hack-the-traffic-registration-31722953207?)
 
 ### Communicate with Your Fellow Hackers
-We'll be using Slack messaging leading up to and during the hackathon. 
 
 1. Add yourself to [Open Austin's Slack Team](http://slack.open-austin.org)
 
