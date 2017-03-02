@@ -1,0 +1,101 @@
+route_name,route_id,segment_name,sequence,route_start_reader,route_end_reader,route_direction
+Congress - Northbound,1,congress_11th$congress_6th,10,congress_slaughter,congress_11th,northbound
+Congress - Northbound,1,congress_5th$congress_6th,9,congress_slaughter,congress_11th,northbound
+Congress - Northbound,1,congress_5th$congress_cesar_chavez,8,congress_slaughter,congress_11th,northbound
+Congress - Northbound,1,congress_cesar_chavez$riverside_congress,7,congress_slaughter,congress_11th,northbound
+Congress - Northbound,1,congress_elizabeth$riverside_congress,6,congress_slaughter,congress_11th,northbound
+Congress - Northbound,1,congress_elizabeth$congress_oltorf,5,congress_slaughter,congress_11th,northbound
+Congress - Northbound,1,congress_benwhite$congress_oltorf,4,congress_slaughter,congress_11th,northbound
+Congress - Northbound,1,congress_benwhite$congress_stassney,3,congress_slaughter,congress_11th,northbound
+Congress - Northbound,1,congress_stassney$congress_wm_cannon,2,congress_slaughter,congress_11th,northbound
+Congress - Northbound,1,congress_slaughter$congress_wm_cannon,1,congress_slaughter,congress_11th,northbound
+Congress - Southbound,2,congress_slaughter$congress_wm_cannon,10,congress_11th,congress_slaughter,southbound
+Congress - Southbound,2,congress_stassney$congress_wm_cannon,9,congress_11th,congress_slaughter,southbound
+Congress - Southbound,2,congress_benwhite$congress_stassney,8,congress_11th,congress_slaughter,southbound
+Congress - Southbound,2,congress_benwhite$congress_oltorf,7,congress_11th,congress_slaughter,southbound
+Congress - Southbound,2,congress_elizabeth$congress_oltorf,6,congress_11th,congress_slaughter,southbound
+Congress - Southbound,2,congress_elizabeth$riverside_congress,5,congress_11th,congress_slaughter,southbound
+Congress - Southbound,2,congress_cesar_chavez$riverside_congress,4,congress_11th,congress_slaughter,southbound
+Congress - Southbound,2,congress_5th$congress_cesar_chavez,3,congress_11th,congress_slaughter,southbound
+Congress - Southbound,2,congress_5th$congress_6th,2,congress_11th,congress_slaughter,southbound
+Congress - Southbound,2,congress_11th$congress_6th,1,congress_11th,congress_slaughter,southbound
+South 1st - Northbound,3,lavaca_5th$lavaca_6th,9,south_1st_slaughter,lavaca_6th,northbound
+South 1st - Northbound,3,cesar_chavez_lavaca$lavaca_5th,8,south_1st_slaughter,lavaca_6th,northbound
+South 1st - Northbound,3,cesar_chavez_lavaca$south_1st_barton_spring,7,south_1st_slaughter,lavaca_6th,northbound
+South 1st - Northbound,3,south_1st_barton_spring$south_1st_oltorf,6,south_1st_slaughter,lavaca_6th,northbound
+South 1st - Northbound,3,south_1st_benwhite$south_1st_oltorf,5,south_1st_slaughter,lavaca_6th,northbound
+South 1st - Northbound,3,south_1st_benwhite$south_1st_st_elmo,4,south_1st_slaughter,lavaca_6th,northbound
+South 1st - Northbound,3,south_1st_st_elmo$south_1st_stassney,3,south_1st_slaughter,lavaca_6th,northbound
+South 1st - Northbound,3,south_1st_stassney$south_1st_wm_cannon,2,south_1st_slaughter,lavaca_6th,northbound
+South 1st - Northbound,3,south_1st_slaughter$south_1st_wm_cannon,1,south_1st_slaughter,lavaca_6th,northbound
+South 1st - Southbound,4,south_1st_slaughter$south_1st_wm_cannon,9,lavaca_6th,south_1st_slaughter,southbound
+South 1st - Southbound,4,south_1st_stassney$south_1st_wm_cannon,8,lavaca_6th,south_1st_slaughter,southbound
+South 1st - Southbound,4,south_1st_st_elmo$south_1st_stassney,7,lavaca_6th,south_1st_slaughter,southbound
+South 1st - Southbound,4,south_1st_benwhite$south_1st_st_elmo,6,lavaca_6th,south_1st_slaughter,southbound
+South 1st - Southbound,4,south_1st_benwhite$south_1st_oltorf,5,lavaca_6th,south_1st_slaughter,southbound
+South 1st - Southbound,4,south_1st_barton_spring$south_1st_oltorf,4,lavaca_6th,south_1st_slaughter,southbound
+South 1st - Southbound,4,cesar_chavez_lavaca$south_1st_barton_spring,3,lavaca_6th,south_1st_slaughter,southbound
+South 1st - Southbound,4,cesar_chavez_lavaca$lavaca_5th,2,lavaca_6th,south_1st_slaughter,southbound
+South 1st - Southbound,4,lavaca_5th$lavaca_6th,1,lavaca_6th,south_1st_slaughter,southbound
+Guadalupe - Northbound,5,guadalupe_26th$guadalupe_27th,5,guadalupe_15th,guadalupe_27th,northbound
+Guadalupe - Northbound,5,guadalupe_24th$guadalupe_26th,4,guadalupe_15th,guadalupe_27th,northbound
+Guadalupe - Northbound,5,guadalupe_21st$guadalupe_24th,3,guadalupe_15th,guadalupe_27th,northbound
+Guadalupe - Northbound,5,guadalupe_21st$mlk_guadalupe,2,guadalupe_15th,guadalupe_27th,northbound
+Guadalupe - Northbound,5,guadalupe_15th$mlk_guadalupe,1,guadalupe_15th,guadalupe_27th,northbound
+Guadalupe - Southbound,6,guadalupe_15th$mlk_guadalupe,5,guadalupe_27th,guadalupe_15th,southbound
+Guadalupe - Southbound,6,guadalupe_21st$mlk_guadalupe,4,guadalupe_27th,guadalupe_15th,southbound
+Guadalupe - Southbound,6,guadalupe_21st$guadalupe_24th,3,guadalupe_27th,guadalupe_15th,southbound
+Guadalupe - Southbound,6,guadalupe_24th$guadalupe_26th,2,guadalupe_27th,guadalupe_15th,southbound
+Guadalupe - Southbound,6,guadalupe_26th$guadalupe_27th,1,guadalupe_27th,guadalupe_15th,southbound
+Lamar - Northbound,7,lamar_braker$lamar_parmer,26,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_braker$lamar_rundberg,25,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_payton_gin$lamar_rundberg,24,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_morrow$lamar_payton_gin,23,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_airport$lamar_morrow,22,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_airport$lamar_koenig,21,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_51st$lamar_koenig,20,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_45th$lamar_51st,19,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_38th$lamar_45th,18,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_29th$lamar_38th,17,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_24th$lamar_29th,16,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_24th$lamar_mlk,15,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_12th$lamar_6th,14,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_12th$lamar_6th,13,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_5th$lamar_6th,12,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_5th$lamar_riverside,11,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_barton_springs$lamar_riverside,10,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_barton_springs$lamar_lamar_square,9,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,lamar_lamar_square$lamar_oltorf,8,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,Lamar_Blue_Bonnet$lamar_oltorf,7,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,Lamar_and_Manchca_Barton_skyway$Lamar_Blue_Bonnet,6,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,Lamar_and_Manchca_Barton_skyway$lamar_panther,5,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,Lamar_BrodieOaks$lamar_panther,4,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,Lamar_BrodieOaks$us290_wm_cannon,3,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,us290_tx71$us290_wm_cannon,2,tx71_silvermine,lamar_parmer,northbound
+Lamar - Northbound,7,tx71_silvermine$us290_tx71,1,tx71_silvermine,lamar_parmer,northbound
+Lamar - Southbound,8,lamar_braker$lamar_parmer,1,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_braker$lamar_rundberg,2,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_payton_gin$lamar_rundberg,3,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_morrow$lamar_payton_gin,4,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_airport$lamar_morrow,5,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_airport$lamar_koenig,6,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_51st$lamar_koenig,7,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_45th$lamar_51st,8,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_38th$lamar_45th,9,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_29th$lamar_38th,10,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_24th$lamar_29th,11,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_24th$lamar_mlk,12,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_12th$lamar_6th,13,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_12th$lamar_6th,14,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_5th$lamar_6th,15,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_5th$lamar_riverside,16,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_barton_springs$lamar_riverside,17,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_barton_springs$lamar_lamar_square,18,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,lamar_lamar_square$lamar_oltorf,19,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,Lamar_Blue_Bonnet$lamar_oltorf,20,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,Lamar_and_Manchca_Barton_skyway$Lamar_Blue_Bonnet,21,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,Lamar_and_Manchca_Barton_skyway$lamar_panther,22,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,Lamar_BrodieOaks$lamar_panther,23,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,Lamar_BrodieOaks$us290_wm_cannon,24,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,us290_tx71$us290_wm_cannon,25,lamar_parmer,tx71_silvermine,southbound
+Lamar - Southbound,8,tx71_silvermine$us290_tx71,26,lamar_parmer,tx71_silvermine,southbound
