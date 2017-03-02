@@ -1,3 +1,5 @@
+#  ROUTES!
+
 #  guadalupe southbound
 ("guadalupe_27th$guadalupe_26th$guadalupe_24th$guadalupe_21st$mlk_guadalupe$guadalupe_15th")
 
@@ -25,18 +27,14 @@
 # South 1st Northbound
 ("south_1st_slaughter$south_1st_wm_cannon$south_1st_stassney$south_1st_st_elmo$south_1st_benwhite$south_1st_oltorf$south_1st_barton_spring$cesar_chavez_lavaca$lavaca_5th$lavaca_6th")
 
+#  Individual Traffic Match Files (ITMF)
 
-# compute average travel time for segments along a given route within a time range and day(s) of week. Currently 4-7pm non-weekdays
+# 1. Compute average travel time for segments along a given route within a time range and day(s) of week
 https://data.austintexas.gov/resource/922j-6afw.json?
-
 $query=SELECT origin_reader_identifier, destination_reader_identifier, start_time, day_of_week, speed_miles_per_hour WHERE match_validity='valid' AND origin_reader_identifier || "$" || destination_reader_identifier in ("congress_slaughter$congress_wm_cannon", "congress_stassney$congress_wm_cannon", "congress_benwhite$congress_stassney", "congress_benwhite$congress_oltorf", "congress_elizabeth$congress_oltorf", "congress_elizabeth$riverside_congress", "congress_cesar_chavez$riverside_congress", "congress_5th$congress_cesar_chavez", "congress_5th$congress_6th", "congress_11th$congress_6th")
-
 |> SELECT origin_reader_identifier, destination_reader_identifier, start_time, day_of_week, speed_miles_per_hour, CASE(origin_reader_identifier < destination_reader_identifier, origin_reader_identifier || '$' || destination_reader_identifier, destination_reader_identifier < origin_reader_identifier, destination_reader_identifier || '$' || origin_reader_identifier) AS segment_name 
-
 |> SELECT start_time, day_of_week, speed_miles_per_hour, segment_name WHERE start_time LIKE('%25T16:%25')  OR start_time LIKE('%25T17:%25') OR start_time LIKE('%25T18:%25') 
-
 |> SELECT start_time, day_of_week, speed_miles_per_hour, segment_name where UPPER(day_of_week) NOT IN('SATURDAY', 'SUNDAY')
-
 |> SELECT segment_name, avg(speed_miles_per_hour), count(*) GROUP BY segment_name
 
 
