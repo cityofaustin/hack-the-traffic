@@ -6,7 +6,7 @@
 
 [Column Descriptions](#column-descriptions)
 
-#### Download Data
+### Download Data
 The sensor data is available in three datasets:
 
 [Individual Address Records](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Addresses/qnpj-zrb9/data)
@@ -21,9 +21,9 @@ Each row in this dataset represents one Bluetooth enabled device that detected a
 
 The traffic summary records contain aggregate travel time and speed summaries based on the individual traffic match records. Each row in the dataset summarizes average travel time and speed along a sensor-equipped roadway segment in 15 minute intervals.
 
-#### Column Descriptions
+### Column Descriptions
 
-##### Individual Traffic Matches
+#### Individual Traffic Matches
 
 record_id: The unique record identifer generated as an MD5 hash of the row contents
 
