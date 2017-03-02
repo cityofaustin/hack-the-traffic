@@ -2,8 +2,9 @@
 
 ### Contents
 
-[Download Data](#### Download Data)
-[Column Descriptions](#### Column Descriptions)
+[Download Data](#dowload-data)
+
+[Column Descriptions](#column-descriptions)
 
 #### Download Data
 The sensor data is available in three datasets:
