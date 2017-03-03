@@ -86,7 +86,7 @@ This dataset contains information about the location of Bluetooth travel sensors
 
 This dataset contains line features which represent travel segments connected by the City of Austin's bluetooth travel sensor network. This dataset can be linked to travel sensor data to visualize travel time and speeds.
 
-See also: [dataset query examples](#query-examples)
+See also: [Route Index](#routes)
 
 #### Download
 
