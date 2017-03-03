@@ -2,14 +2,6 @@
 Sat, March 4, 2017
 12:00 PM – 6:00 PM CST
 
-- [Register](#register-for-our-event)
-
-- [Communicate](#communicate-with-your-fellow-hackers)
-
-- [Project Ideas](#project-ideas)
-
-- [Data Download and Documentation](https://github.com/cityofaustin/hack-the-traffic/tree/master/docs)
-
 ## Register for Our Event
 Let us know you're coming by registering on our [Eventbrite Page](https://www.eventbrite.com/e/atx-hack-the-traffic-registration-31722953207?)
 
@@ -18,6 +10,9 @@ Let us know you're coming by registering on our [Eventbrite Page](https://www.ev
 1. Add yourself to [Open Austin's Slack Team](http://slack.open-austin.org)
 
 2. Join the [#HackTheTraffic](https://open-austin.slack.com/messages/hackthetraffic/) channel
+
+## Data Download and Documentation
+Data documentation and download links are available in the [docs folder](https://github.com/cityofaustin/hack-the-traffic/tree/master/docs)
 
 ## Project Ideas
 
