@@ -1,10 +1,8 @@
 # ATX Hack the Traffic Docs
 
-### Contents
+- [Download Data](#dowload-data)
 
-[Download Data](#dowload-data)
-
-[Column Descriptions](#column-descriptions)
+- [Column Descriptions](#column-descriptions)
 
 ### Download Data
 The sensor data is available in three datasets:
