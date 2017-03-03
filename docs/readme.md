@@ -25,31 +25,31 @@ The traffic summary records contain aggregate travel time and speed summaries ba
 
 ### Individual Traffic Matches
 
-record_id: The unique record identifer generated as an MD5 hash of the row contents
+**record_id**: The unique record identifer generated as an MD5 hash of the row contents
 
-device_address: The unique address of the device that was read by the field software. For security, the source MAC address is discarded and replaced with a random address.
+**device_address**: The unique address of the device that was read by the field software. For security, the source MAC address is discarded and replaced with a random address.
 
-origin_reader_identifier: The unique identifier assigned to origin sensor that recorded a device address match.
+**origin_reader_identifier**: The unique identifier assigned to origin sensor that recorded a device address match.
 
-destination_reader_identifier: The unique identifier assigned to destination sensor that recorded a device address match.
+**destination_reader_identifier**: The unique identifier assigned to destination sensor that recorded a device address match.
 
-start_time: The time the device address was recorded at the origin sensor.
+**start_time**: The time the device address was recorded at the origin sensor.
 
-end_time: The time the device address was recorded at the destination sensor.
+**end_time**: The time the device address was recorded at the destination sensor.
 
-day_of_week: The name of the day of the week at the time the device address was recorded at the origin sensor. 
+**day_of_week**: The name of the day of the week at the time the device address was recorded at the origin sensor. 
 
-travel_time_seconds: The travel time in seconds from the origin to the destination sensor.
+**travel_time_seconds**: The travel time in seconds from the origin to the destination sensor.
 
-speed_miles_per_hour: The speed in miles per hour between the origin and the destination sensors.
+**speed_miles_per_hour**: The speed in miles per hour between the origin and the destination sensors.
 
-match_validity: Indicates whether the sensor server classified the traffic data sample as being valid or invalid based on the filtering algorithm and minimum/maximum allowable speeds applied to the roadway segment. Values are valid or invalid.
+**match_validity**: Indicates whether the sensor server classified the traffic data sample as being valid or invalid based on the filtering algorithm and minimum/maximum allowable speeds applied to the roadway segment. Values are valid or invalid.
 
-filter_identifier: The numeric code of the filtering algorithm used in the outlier filter for the roadway segment. See the host documentation section titled “Algorithm Configuration” for more information.
+**filter_identifier**: The numeric code of the filtering algorithm used in the outlier filter for the roadway segment. See the host documentation section titled “Algorithm Configuration” for more information.
 
 
 
-# Query Examples
+## Query Examples
 A few sample queries to get you started with Austin's Bluetooth data. These queries use the Socrata Open Data API (SODA) to fetch data from the City of Austin's [data portal](http://data.austinetxas.gov).
 
 1. Return top 10 most recent rows from weekdays 
@@ -94,7 +94,7 @@ A few sample queries to get you started with Austin's Bluetooth data. These quer
     ```
 
 ## Routes
-You can plug these route objects into [queries](#query-examples) to find traffic matches along specific routes. The `segment_name` field in the example query outputs is a concatenation of the origin and rdestination reader IDs, and can be used to join data to the `segment_name` field in the [route geoJSON](hack-the-traffic/mapping_workshop/data/austin_bt_routes.csv) file.
+You can plug these route objects into [queries](#query-examples) to find traffic matches along specific routes. The `segment_name` field in the example query outputs is a concatenation of the origin and rdestination reader IDs, and can be used to join data to the `segment_name` field in the [route geoJSON](http://github.com/cityofaustin/hack-the-traffic/mapping_workshop/data/austin_bt_routes.csv) file.
 
 #### Guadalupe Northbound
 ```
@@ -127,7 +127,8 @@ You can plug these route objects into [queries](#query-examples) to find traffic
 ```
 
 #### South 1st Northbound
-```("south_1st_slaughter$south_1st_wm_cannon","south_1st_wm_cannon$south_1st_stassney","south_1st_stassney$south_1st_st_elmo","south_1st_st_elmo$south_1st_benwhite","south_1st_benwhite$south_1st_oltorf","south_1st_oltorf$south_1st_barton_spring","south_1st_barton_spring$cesar_chavez_lavaca","cesar_chavez_lavaca$lavaca_5th","lavaca_5th$lavaca_6th")
+```
+("south_1st_slaughter$south_1st_wm_cannon","south_1st_wm_cannon$south_1st_stassney","south_1st_stassney$south_1st_st_elmo","south_1st_st_elmo$south_1st_benwhite","south_1st_benwhite$south_1st_oltorf","south_1st_oltorf$south_1st_barton_spring","south_1st_barton_spring$cesar_chavez_lavaca","cesar_chavez_lavaca$lavaca_5th","lavaca_5th$lavaca_6th")
 ```
 
 #### South 1st Southbound
