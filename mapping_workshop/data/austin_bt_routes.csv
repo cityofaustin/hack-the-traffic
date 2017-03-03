@@ -1,107 +1,107 @@
-route_name,route_id,reader_name,sequence
-Congress - Soutbound,2,congress_slaughter,11
-Congress - Soutbound,2,congress_wm_cannon,10
-Congress - Soutbound,2,congress_stassney,9
-Congress - Soutbound,2,congress_benwhite,8
-Congress - Soutbound,2,congress_oltorf,7
-Congress - Soutbound,2,congress_elizabeth,6
-Congress - Soutbound,2,riverside_congress,5
-Congress - Soutbound,2,congress_cesar_chavez,4
-Congress - Soutbound,2,congress_5th,3
-Congress - Soutbound,2,congress_6th,2
-Congress - Soutbound,2,congress_11th,1
-South 1st - Northbound,3,lavaca_6th,10
-South 1st - Northbound,3,lavaca_5th,9
-South 1st - Northbound,3,cesar_chavez_lavaca,8
-South 1st - Northbound,3,south_1st_barton_spring,7
-South 1st - Northbound,3,south_1st_oltorf,6
-South 1st - Northbound,3,south_1st_benwhite,5
-South 1st - Northbound,3,south_1st_st_elmo,4
-South 1st - Northbound,3,south_1st_stassney,3
-South 1st - Northbound,3,south_1st_wm_cannon,2
-South 1st - Northbound,3,south_1st_slaughter,1
-Guadalupe - Northbound,5,guadalupe_27th,6
-Guadalupe - Northbound,5,guadalupe_26th,5
-Guadalupe - Northbound,5,guadalupe_24th,4
-Guadalupe - Northbound,5,guadalupe_21st,3
-Guadalupe - Northbound,5,mlk_guadalupe,2
-Guadalupe - Northbound,5,guadalupe_15th,1
-Lamar - Northbound,7,lamar_parmer,26
-Lamar - Northbound,7,lamar_braker,25
-Lamar - Northbound,7,lamar_rundberg,24
-Lamar - Northbound,7,lamar_payton_gin,23
-Lamar - Northbound,7,lamar_morrow,22
-Lamar - Northbound,7,lamar_airport,21
-Lamar - Northbound,7,lamar_koenig,20
-Lamar - Northbound,7,lamar_51st,19
-Lamar - Northbound,7,lamar_45th,18
-Lamar - Northbound,7,lamar_38th,17
-Lamar - Northbound,7,lamar_29th,16
-Lamar - Northbound,7,lamar_24th,15
-Lamar - Northbound,7,lamar_mlk,14
-Lamar - Northbound,7,lamar_12th,13
-Lamar - Northbound,7,lamar_6th,12
-Lamar - Northbound,7,lamar_5th,11
-Lamar - Northbound,7,lamar_riverside,10
-Lamar - Northbound,7,lamar_barton_springs,9
-Lamar - Northbound,7,lamar_lamar_square,8
-Lamar - Northbound,7,lamar_oltorf,7
-Lamar - Northbound,7,Lamar_Blue_Bonnet,6
-Lamar - Northbound,7,Lamar_and_Manchca_Barton_skyway,5
-Lamar - Northbound,7,lamar_panther,4
-Lamar - Northbound,7,us290_wm_cannon,3
-Lamar - Northbound,7,us290_tx71,2
-Lamar - Northbound,7,tx71_silvermine,1
-Congress - Northbound,1,congress_slaughter,1
-Congress - Northbound,1,congress_wm_cannon,2
-Congress - Northbound,1,congress_stassney,3
-Congress - Northbound,1,congress_benwhite,4
-Congress - Northbound,1,congress_oltorf,5
-Congress - Northbound,1,congress_elizabeth,6
-Congress - Northbound,1,riverside_congress,7
-Congress - Northbound,1,congress_cesar_chavez,8
-Congress - Northbound,1,congress_5th,9
-Congress - Northbound,1,congress_6th,10
-Congress - Northbound,1,congress_11th,11
-South 1st - Southbound,4,lavaca_6th,1
-South 1st - Southbound,4,lavaca_5th,2
-South 1st - Southbound,4,cesar_chavez_lavaca,3
-South 1st - Southbound,4,south_1st_barton_spring,4
-South 1st - Southbound,4,south_1st_oltorf,5
-South 1st - Southbound,4,south_1st_benwhite,6
-South 1st - Southbound,4,south_1st_st_elmo,7
-South 1st - Southbound,4,south_1st_stassney,8
-South 1st - Southbound,4,south_1st_wm_cannon,9
-South 1st - Southbound,4,south_1st_slaughter,10
-Guadalupe - Southbound,6,guadalupe_27th,1
-Guadalupe - Southbound,6,guadalupe_26th,2
-Guadalupe - Southbound,6,guadalupe_24th,3
-Guadalupe - Southbound,6,guadalupe_21st,4
-Guadalupe - Southbound,6,mlk_guadalupe,5
-Guadalupe - Southbound,6,guadalupe_15th,6
-Lamar - Southbound,8,lamar_parmer,1
-Lamar - Southbound,8,lamar_braker,2
-Lamar - Southbound,8,lamar_rundberg,3
-Lamar - Southbound,8,lamar_payton_gin,4
-Lamar - Southbound,8,lamar_morrow,5
-Lamar - Southbound,8,lamar_airport,6
-Lamar - Southbound,8,lamar_koenig,7
-Lamar - Southbound,8,lamar_51st,8
-Lamar - Southbound,8,lamar_45th,9
-Lamar - Southbound,8,lamar_38th,10
-Lamar - Southbound,8,lamar_29th,11
-Lamar - Southbound,8,lamar_24th,12
-Lamar - Southbound,8,lamar_mlk,13
-Lamar - Southbound,8,lamar_12th,14
-Lamar - Southbound,8,lamar_6th,15
-Lamar - Southbound,8,lamar_5th,16
-Lamar - Southbound,8,lamar_riverside,17
-Lamar - Southbound,8,lamar_barton_springs,18
-Lamar - Southbound,8,lamar_lamar_square,19
-Lamar - Southbound,8,lamar_oltorf,20
-Lamar - Southbound,8,Lamar_Blue_Bonnet,21
-Lamar - Southbound,8,Lamar_and_Manchca_Barton_skyway,22
-Lamar - Southbound,8,lamar_panther,23
-Lamar - Southbound,8,us290_wm_cannon,24
-Lamar - Southbound,8,us290_tx71,25
-Lamar - Southbound,8,tx71_silvermine,26
+route_name,route_id,reader_name,sequence,origin_destination_reader
+Congress - Northbound,1,congress_slaughter,1,congress_slaughter$congress_wm_cannon
+Congress - Northbound,1,congress_wm_cannon,2,congress_wm_cannon$congress_stassney
+Congress - Northbound,1,congress_stassney,3,congress_stassney$congress_benwhite
+Congress - Northbound,1,congress_benwhite,4,congress_benwhite$congress_oltorf
+Congress - Northbound,1,congress_oltorf,5,congress_oltorf$congress_elizabeth
+Congress - Northbound,1,congress_elizabeth,6,congress_elizabeth$riverside_congress
+Congress - Northbound,1,riverside_congress,7,riverside_congress$congress_cesar_chavez
+Congress - Northbound,1,congress_cesar_chavez,8,congress_cesar_chavez$congress_5th
+Congress - Northbound,1,congress_5th,9,congress_5th$congress_6th
+Congress - Northbound,1,congress_6th,10,congress_6th$congress_11th
+Congress - Northbound,1,congress_11th,11,
+Congress - Soutbound,2,congress_11th,1,congress_11th$congress_6th
+Congress - Soutbound,2,congress_6th,2,congress_6th$congress_5th
+Congress - Soutbound,2,congress_5th,3,congress_5th$congress_cesar_chavez
+Congress - Soutbound,2,congress_cesar_chavez,4,congress_cesar_chavez$riverside_congress
+Congress - Soutbound,2,riverside_congress,5,riverside_congress$congress_elizabeth
+Congress - Soutbound,2,congress_elizabeth,6,congress_elizabeth$congress_oltorf
+Congress - Soutbound,2,congress_oltorf,7,congress_oltorf$congress_benwhite
+Congress - Soutbound,2,congress_benwhite,8,congress_benwhite$congress_stassney
+Congress - Soutbound,2,congress_stassney,9,congress_stassney$congress_wm_cannon
+Congress - Soutbound,2,congress_wm_cannon,10,congress_wm_cannon$congress_slaughter
+Congress - Soutbound,2,congress_slaughter,11,
+South 1st - Northbound,3,south_1st_slaughter,1,south_1st_slaughter$south_1st_wm_cannon
+South 1st - Northbound,3,south_1st_wm_cannon,2,south_1st_wm_cannon$south_1st_stassney
+South 1st - Northbound,3,south_1st_stassney,3,south_1st_stassney$south_1st_st_elmo
+South 1st - Northbound,3,south_1st_st_elmo,4,south_1st_st_elmo$south_1st_benwhite
+South 1st - Northbound,3,south_1st_benwhite,5,south_1st_benwhite$south_1st_oltorf
+South 1st - Northbound,3,south_1st_oltorf,6,south_1st_oltorf$south_1st_barton_spring
+South 1st - Northbound,3,south_1st_barton_spring,7,south_1st_barton_spring$cesar_chavez_lavaca
+South 1st - Northbound,3,cesar_chavez_lavaca,8,cesar_chavez_lavaca$lavaca_5th
+South 1st - Northbound,3,lavaca_5th,9,lavaca_5th$lavaca_6th
+South 1st - Northbound,3,lavaca_6th,10,
+South 1st - Southbound,4,lavaca_6th,1,lavaca_6th$lavaca_5th
+South 1st - Southbound,4,lavaca_5th,2,lavaca_5th$cesar_chavez_lavaca
+South 1st - Southbound,4,cesar_chavez_lavaca,3,cesar_chavez_lavaca$south_1st_barton_spring
+South 1st - Southbound,4,south_1st_barton_spring,4,south_1st_barton_spring$south_1st_oltorf
+South 1st - Southbound,4,south_1st_oltorf,5,south_1st_oltorf$south_1st_benwhite
+South 1st - Southbound,4,south_1st_benwhite,6,south_1st_benwhite$south_1st_st_elmo
+South 1st - Southbound,4,south_1st_st_elmo,7,south_1st_st_elmo$south_1st_stassney
+South 1st - Southbound,4,south_1st_stassney,8,south_1st_stassney$south_1st_wm_cannon
+South 1st - Southbound,4,south_1st_wm_cannon,9,south_1st_wm_cannon$south_1st_slaughter
+South 1st - Southbound,4,south_1st_slaughter,10,
+Guadalupe - Northbound,5,guadalupe_15th,1,guadalupe_15th$mlk_guadalupe
+Guadalupe - Northbound,5,mlk_guadalupe,2,mlk_guadalupe$guadalupe_21st
+Guadalupe - Northbound,5,guadalupe_21st,3,guadalupe_21st$guadalupe_24th
+Guadalupe - Northbound,5,guadalupe_24th,4,guadalupe_24th$guadalupe_26th
+Guadalupe - Northbound,5,guadalupe_26th,5,guadalupe_26th$guadalupe_27th
+Guadalupe - Northbound,5,guadalupe_27th,6,
+Guadalupe - Southbound,6,guadalupe_27th,1,guadalupe_27th$guadalupe_26th
+Guadalupe - Southbound,6,guadalupe_26th,2,guadalupe_26th$guadalupe_24th
+Guadalupe - Southbound,6,guadalupe_24th,3,guadalupe_24th$guadalupe_21st
+Guadalupe - Southbound,6,guadalupe_21st,4,guadalupe_21st$mlk_guadalupe
+Guadalupe - Southbound,6,mlk_guadalupe,5,mlk_guadalupe$guadalupe_15th
+Guadalupe - Southbound,6,guadalupe_15th,6,
+Lamar - Northbound,7,tx71_silvermine,1,tx71_silvermine$us290_tx71
+Lamar - Northbound,7,us290_tx71,2,us290_tx71$us290_wm_cannon
+Lamar - Northbound,7,us290_wm_cannon,3,us290_wm_cannon$lamar_panther
+Lamar - Northbound,7,lamar_panther,4,lamar_panther$Lamar_and_Manchca_Barton_skyway
+Lamar - Northbound,7,Lamar_and_Manchca_Barton_skyway,5,Lamar_and_Manchca_Barton_skyway$Lamar_Blue_Bonnet
+Lamar - Northbound,7,Lamar_Blue_Bonnet,6,Lamar_Blue_Bonnet$lamar_oltorf
+Lamar - Northbound,7,lamar_oltorf,7,lamar_oltorf$lamar_lamar_square
+Lamar - Northbound,7,lamar_lamar_square,8,lamar_lamar_square$lamar_barton_springs
+Lamar - Northbound,7,lamar_barton_springs,9,lamar_barton_springs$lamar_riverside
+Lamar - Northbound,7,lamar_riverside,10,lamar_riverside$lamar_5th
+Lamar - Northbound,7,lamar_5th,11,lamar_5th$lamar_6th
+Lamar - Northbound,7,lamar_6th,12,lamar_6th$lamar_12th
+Lamar - Northbound,7,lamar_12th,13,lamar_12th$lamar_mlk
+Lamar - Northbound,7,lamar_mlk,14,lamar_mlk$lamar_24th
+Lamar - Northbound,7,lamar_24th,15,lamar_24th$lamar_29th
+Lamar - Northbound,7,lamar_29th,16,lamar_29th$lamar_38th
+Lamar - Northbound,7,lamar_38th,17,lamar_38th$lamar_45th
+Lamar - Northbound,7,lamar_45th,18,lamar_45th$lamar_51st
+Lamar - Northbound,7,lamar_51st,19,lamar_51st$lamar_koenig
+Lamar - Northbound,7,lamar_koenig,20,lamar_koenig$lamar_airport
+Lamar - Northbound,7,lamar_airport,21,lamar_airport$lamar_morrow
+Lamar - Northbound,7,lamar_morrow,22,lamar_morrow$lamar_payton_gin
+Lamar - Northbound,7,lamar_payton_gin,23,lamar_payton_gin$lamar_rundberg
+Lamar - Northbound,7,lamar_rundberg,24,lamar_rundberg$lamar_braker
+Lamar - Northbound,7,lamar_braker,25,lamar_braker$lamar_parmer
+Lamar - Northbound,7,lamar_parmer,26,
+Lamar - Southbound,8,lamar_parmer,1,lamar_parmer$lamar_braker
+Lamar - Southbound,8,lamar_braker,2,lamar_braker$lamar_rundberg
+Lamar - Southbound,8,lamar_rundberg,3,lamar_rundberg$lamar_payton_gin
+Lamar - Southbound,8,lamar_payton_gin,4,lamar_payton_gin$lamar_morrow
+Lamar - Southbound,8,lamar_morrow,5,lamar_morrow$lamar_airport
+Lamar - Southbound,8,lamar_airport,6,lamar_airport$lamar_koenig
+Lamar - Southbound,8,lamar_koenig,7,lamar_koenig$lamar_51st
+Lamar - Southbound,8,lamar_51st,8,lamar_51st$lamar_45th
+Lamar - Southbound,8,lamar_45th,9,lamar_45th$lamar_38th
+Lamar - Southbound,8,lamar_38th,10,lamar_38th$lamar_29th
+Lamar - Southbound,8,lamar_29th,11,lamar_29th$lamar_24th
+Lamar - Southbound,8,lamar_24th,12,lamar_24th$lamar_mlk
+Lamar - Southbound,8,lamar_mlk,13,lamar_mlk$lamar_12th
+Lamar - Southbound,8,lamar_12th,14,lamar_12th$lamar_6th
+Lamar - Southbound,8,lamar_6th,15,lamar_6th$lamar_5th
+Lamar - Southbound,8,lamar_5th,16,lamar_5th$lamar_riverside
+Lamar - Southbound,8,lamar_riverside,17,lamar_riverside$lamar_barton_springs
+Lamar - Southbound,8,lamar_barton_springs,18,lamar_barton_springs$lamar_lamar_square
+Lamar - Southbound,8,lamar_lamar_square,19,lamar_lamar_square$lamar_oltorf
+Lamar - Southbound,8,lamar_oltorf,20,lamar_oltorf$Lamar_Blue_Bonnet
+Lamar - Southbound,8,Lamar_Blue_Bonnet,21,Lamar_Blue_Bonnet$Lamar_and_Manchca_Barton_skyway
+Lamar - Southbound,8,Lamar_and_Manchca_Barton_skyway,22,Lamar_and_Manchca_Barton_skyway$lamar_panther
+Lamar - Southbound,8,lamar_panther,23,lamar_panther$us290_wm_cannon
+Lamar - Southbound,8,us290_wm_cannon,24,us290_wm_cannon$us290_tx71
+Lamar - Southbound,8,us290_tx71,25,us290_tx71$tx71_silvermine
+Lamar - Southbound,8,tx71_silvermine,26,
