@@ -1,9 +1,9 @@
 # Austin Bluetooth Travel Sensor Data Documentation
 
  * [Dataset Documentation](#dataset-documentation)
-    * [Individual Address Files (IAF)](#individual-address-files-(iaf))
-    * [Inidividual Traffic Match Files (ITFM)](#individual-traffic-match-files-(itmf))
-    * [Traffic Match Summary Records (TMSR)](#traffic-match-summary-records-(tmsr))
+    * [Individual Address Files (IAF)](#individual-address-files-iaf)
+    * [Inidividual Traffic Match Files (ITFM)](#individual-traffic-match-files-itmf)
+    * [Traffic Match Summary Records (TMSR)](#traffic-match-summary-records-tmsr)
     * [Travel Sensor Locations](#travel-sensor-locations)
     * [Travel Sensor Route Segments](#travel-sensor-route-segments)
 
