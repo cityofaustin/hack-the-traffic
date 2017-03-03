@@ -50,6 +50,18 @@ Each row in this dataset represents a Bluetooth device that was detected by one 
  - [data.austintexas.gov](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Addresses/qnpj-zrb9/data)
  - [data.world](https://data.world/ctr/atd-awam-iaf)
 
+ #### Column Descriptions
+ 
+*record_id*: The unique record identifer generated as an MD5 hash of the row contents
+
+*host_read_time*: The timestamp on the host server when the device address was received. By default, this is the timestamp used in travel time estimation.
+
+*field_device_read_time*: The timestamp of the field device when the address was received. By default, this is not used in travel time estimation.
+
+*reader_identifier*: The unique identifier of the sensor that the Bluetooth device address record originated from.
+
+*device_address*: The unique address of the device that was read by the sensor. For security, the source MAC address is discarded and replaced with a random address.
+
 ### Individual Traffic Match Files (ITMF)
 
 Each row in this dataset represents one Bluetooth enabled device that detected at two locations in the roadway network. Each record contains a detected device’s anonymized Media Access Control (MAC) address along with contain information about origin and destination points at which the device was detected, as well the time, date, and distance traveled.
