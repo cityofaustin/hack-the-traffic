@@ -49,33 +49,33 @@ Each row in this dataset represents one Bluetooth enabled device that detected a
 
 #### Column Descriptions
 
-**record_id**: The unique record identifer generated as an MD5 hash of the row contents
+*record_id*: The unique record identifer generated as an MD5 hash of the row contents
 
-**device_address**: The unique address of the device that was read by the field software. For security, the source MAC address is discarded and replaced with a random address.
+*device_address*: The unique address of the device that was read by the field software. For security, the source MAC address is discarded and replaced with a random address.
 
-**origin_reader_identifier**: The unique identifier assigned to origin sensor that recorded a device address match.
+*origin_reader_identifier*: The unique identifier assigned to origin sensor that recorded a device address match.
 
-**destination_reader_identifier**: The unique identifier assigned to destination sensor that recorded a device address match.
+*destination_reader_identifier*: The unique identifier assigned to destination sensor that recorded a device address match.
 
-**start_time**: The time the device address was recorded at the origin sensor.
+*start_time*: The time the device address was recorded at the origin sensor.
 
-**end_time**: The time the device address was recorded at the destination sensor.
+*end_time*: The time the device address was recorded at the destination sensor.
 
-**day_of_week**: The name of the day of the week at the time the device address was recorded at the origin sensor. 
+*day_of_week*: The name of the day of the week at the time the device address was recorded at the origin sensor. 
 
-**travel_time_seconds**: The travel time in seconds from the origin to the destination sensor.
+*travel_time_seconds*: The travel time in seconds from the origin to the destination sensor.
 
-**speed_miles_per_hour**: The speed in miles per hour between the origin and the destination sensors.
+*speed_miles_per_hour*: The speed in miles per hour between the origin and the destination sensors.
 
-**match_validity**: Indicates whether the sensor server classified the traffic data sample as being valid or invalid based on the filtering algorithm and minimum/maximum allowable speeds applied to the roadway segment. Values are valid or invalid.
+*match_validity*: Indicates whether the sensor server classified the traffic data sample as being valid or invalid based on the filtering algorithm and minimum/maximum allowable speeds applied to the roadway segment. Values are valid or invalid.
 
-**filter_identifier**: The numeric code of the filtering algorithm used in the outlier filter for the roadway segment. See the host documentation section titled “Algorithm Configuration” for more information.
+*filter_identifier*: The numeric code of the filtering algorithm used in the outlier filter for the roadway segment. See the host documentation section titled “Algorithm Configuration” for more information.
 
 ### Traffic Match Summary Records (TMSR)
 
 The traffic summary records contain aggregate travel time and speed summaries based on the individual traffic match records. Each row in the dataset summarizes average travel time and speed along a sensor-equipped roadway segment in 15 minute intervals.
 
-**Download**
+#### Download
  - [data.austintexas.gov](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Match-Summary-Records/v7zg-5jg9)
 
 ## Query Examples
