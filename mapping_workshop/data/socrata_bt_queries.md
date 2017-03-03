@@ -17,16 +17,19 @@ A few sample queries to get you started with Austins Bluetooth data. These queri
     https://data.austintexas.gov/resource/922j-6afw.json?
     $query=SELECT origin_reader_identifier, MAX(speed_miles_per_hour) WHERE match_validity='valid' GROUP BY origin_reader_identifier
     ```
+
 3. Count all unique segments by concatenating orgin and destination reader names
     ```sql
     https://data.austintexas.gov/resource/922j-6afw.json?
     $query=SELECT origin_reader_identifier || "$" || destination_reader_identifier as segment_name, COUNT(segment_name) as count GROUP BY segment_name
     ```
+
 4. Return all rows with start_time at 4:30PM
     ```sql
     https://data.austintexas.gov/resource/922j-6afw.json?
     $query=SELECT origin_reader_identifier, start_time WHERE start_time LIKE('%25T16:30%25')
-```
+    ```
+
 5. Compute average speed for all northbound segments where start time is between 4PM and 7PM
     ```sql
     https://data.austintexas.gov/resource/922j-6afw.json?
@@ -35,6 +38,7 @@ A few sample queries to get you started with Austins Bluetooth data. These queri
     |> SELECT start_time, day_of_week, speed_miles_per_hour, segment_name WHERE start_time LIKE('%25T16:%25')  OR start_time LIKE('%25T17:%25') OR start_time LIKE('%25T18:%25') 
     |> SELECT segment_name, AVG(speed_miles_per_hour), COUNT(*) GROUP BY segment_name
     ```
+    
 6. Compute percentage of valid matches for all sensors with matches
     ```sql
     https://data.austintexas.gov/resource/922j-6afw.json?
