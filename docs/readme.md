@@ -11,11 +11,12 @@
 ## Download Data
 Bluetooth travel sensor data sensor is available in three datasets:
 
-[Travel Sensor Locations]()
+[Travel Sensor Locations](https://data.austintexas.gov/dataset/Travel-Sensors/6yd9-yz29)
+This dataset contains information about the location of Bluetooth travel sensors in Austin, TX.
 
 [Travel Sensor Route Segments](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Routes/itsd-rizg)
 
-This line feature dataset line features which represent travel segments connected by the City of Austin's bluetooth travel sensor network. The `segment_name` attribute of each feature represents a concatenation of the origin sensor and destination ids. This dataset can be connected to the sensor output fieles to visualize travel time and speeds. See also: [dataset query examples](#query-examples)
+This dataset contains line features which represent travel segments connected by the City of Austin's bluetooth travel sensor network. This dataset can be connected to the sensor output fieles to visualize travel time and speeds. See also: [dataset query examples](#query-examples)
 
 [Individual Address Files (IAF)](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Addresses/qnpj-zrb9/data)
 
