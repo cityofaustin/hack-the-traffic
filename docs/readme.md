@@ -1,37 +1,52 @@
 # Austin Bluetooth Travel Sensor Data Documentation
 
-- [Download Data](#download-data)
+ * Dataset Documentation
+    * [a](travel-sensor-locations)
+    * [b](travel-sensor-route-segments)
+    * [c](individual-address-files-(iaf))
+    * [d](individual-traffic-match-files-(itmf))
+    * [e](traffic-match-summary-records-(tmsr))
 
-- [Column Descriptions](#column-descriptions)
-
-- [Data Portal (Socrata) Query Examples](#query-examples)
-
-- [Route Index](#routes)
+ * [Column Descriptions](#column-descriptions)
+ * [Data Portal (Socrata) Query Examples](#query-examples)
+ * [Route Index](#routes)
 
 ## Download Data
 
-[Travel Sensor Locations](https://data.austintexas.gov/dataset/Travel-Sensors/6yd9-yz29)
-This dataset contains information about the location of Bluetooth travel sensors in Austin, TX.
+#### Travel Sensor Locations
 
-[Travel Sensor Route Segments](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Routes/itsd-rizg)
+Information about the location of Bluetooth travel sensors in Austin, TX.
 
-This dataset contains line features which represent travel segments connected by the City of Austin's bluetooth travel sensor network. This dataset can be connected to the sensor output fieles to visualize travel time and speeds. See also: [dataset query examples](#query-examples)
+**Download**
+- [data.austintexas.gov](https://data.austintexas.gov/dataset/Travel-Sensors/6yd9-yz29)
 
-[Individual Address Files (IAF)](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Addresses/qnpj-zrb9/data)
+#### Travel Sensor Route Segments
+
+This dataset contains as which represent travel segments connected by the City of Austin's bluetooth travel sensor network. This dataset can be connected to the sensor output fieles to visualize travel time and speeds. See also: 
+[dataset query examples](#query-examples)
+
+**Download**
+- [data.austintexas.gov](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Routes/itsd-rizg)
+
+#### Individual Address Files (IAF)
 
 Each row in this dataset represents a Bluetooth device that was detected by one of our sensors. Each record contains a detected device’s anonymized Media Access Control (MAC) address along with the time and location the device was detected. These records alone are not traffic data but can be post-processed to measure the movement of detected devices through the roadway network
 
-[Individual Traffic Match Files (ITMF)]( https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Traffic-Matche/x44q-icha/data)
+**Download**
+- [data.austintexas.gov](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Addresses/qnpj-zrb9/data)
+
+- [data.world](https://data.world/ctr/atd-awam-iaf)
+
+#### Individual Traffic Match Files (ITMF)
 
 Each row in this dataset represents one Bluetooth enabled device that detected at two locations in the roadway network. Each record contains a detected device’s anonymized Media Access Control (MAC) address along with contain information about origin and destination points at which the device was detected, as well the time, date, and distance traveled.
 
-[Traffic Match Summary Records (TMSR)](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Match-Summary-Records/v7zg-5jg9)
+**Download**
+- [data.austintexas.gov]( https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Traffic-Matche/x44q-icha/data)
 
-The traffic summary records contain aggregate travel time and speed summaries based on the individual traffic match records. Each row in the dataset summarizes average travel time and speed along a sensor-equipped roadway segment in 15 minute intervals.
+- [data.world](https://data.world/ctr/atd-awam-itmf)
 
-## Column Descriptions
-
-### Individual Traffic Matches
+**Column Descriptions**
 
 **record_id**: The unique record identifer generated as an MD5 hash of the row contents
 
@@ -55,7 +70,12 @@ The traffic summary records contain aggregate travel time and speed summaries ba
 
 **filter_identifier**: The numeric code of the filtering algorithm used in the outlier filter for the roadway segment. See the host documentation section titled “Algorithm Configuration” for more information.
 
+#### Traffic Match Summary Records (TMSR)
 
+The traffic summary records contain aggregate travel time and speed summaries based on the individual traffic match records. Each row in the dataset summarizes average travel time and speed along a sensor-equipped roadway segment in 15 minute intervals.
+
+**Download**
+- [data.austintexas.gov](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Match-Summary-Records/v7zg-5jg9)
 
 ## Query Examples
 These queries use the [Socrata Open Data API (SODA)](https://dev.socrata.com/consumers/getting-started.html) to fetch data from the City of Austin's [data portal](http://data.austinetxas.gov).
