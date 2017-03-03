@@ -9,7 +9,6 @@
 - [Route Index](#routes)
 
 ## Download Data
-Bluetooth travel sensor data sensor is available in three datasets:
 
 [Travel Sensor Locations](https://data.austintexas.gov/dataset/Travel-Sensors/6yd9-yz29)
 This dataset contains information about the location of Bluetooth travel sensors in Austin, TX.
