@@ -1,4 +1,4 @@
-# ATX Hack the Traffic Docs
+# Austin Bluetooth Travel Sensor Data Documentation
 
 - [Download Data](#download-data)
 
@@ -9,7 +9,13 @@
 - [Route Index](#routes)
 
 ## Download Data
-The sensor data is available in three datasets:
+Bluetooth travel sensor data sensor is available in three datasets:
+
+[Travel Sensor Locations]()
+
+[Travel Sensor Route Segments](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Routes/itsd-rizg)
+
+This line feature dataset line features which represent travel segments connected by the City of Austin's bluetooth travel sensor network. The `segment_name` attribute of each feature represents a concatenation of the origin sensor and destination ids. This dataset can be connected to the sensor output fieles to visualize travel time and speeds. See also: [dataset query examples](#query-examples)
 
 [Individual Address Files (IAF)](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Addresses/qnpj-zrb9/data)
 
@@ -96,7 +102,7 @@ These queries use the [Socrata Open Data API (SODA)](https://dev.socrata.com/con
     ```
 
 ## Routes
-You can plug these route objects into [queries](#query-examples) to find traffic matches along specific routes. The `segment_name` field in the example query outputs is a concatenation of the origin and destination reader IDs, and can be used to join data to the `segment_name` field in the [route geoJSON](http://github.com/cityofaustin/hack-the-traffic/mapping_workshop/data/austin_bt_routes.csv) file.
+You can plug these route objects into queries to find traffic matches along specific routes. The `segment_name` field in returned in the [example queries](#query-examples) is a concatenation of the origin and destination reader IDs, and can be used to join data to the `segment_name` field in the [route geoJSON](http://github.com/cityofaustin/hack-the-traffic/mapping_workshop/data/austin_bt_routes.csv) file.
 
 #### Guadalupe Northbound
 ```
