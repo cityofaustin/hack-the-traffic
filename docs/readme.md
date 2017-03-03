@@ -12,40 +12,44 @@
 
 ## Dataset Documentation
 
-#### Travel Sensor Locations
+### Travel Sensor Locations
 
 This dataset contains information about the location of Bluetooth travel sensors in Austin, TX.
 
-**Download**
+#### Download
+
 - [data.austintexas.gov](https://data.austintexas.gov/dataset/Travel-Sensors/6yd9-yz29)
 
-#### Travel Sensor Route Segments
+### Travel Sensor Route Segments
 
 This dataset contains as which represent travel segments connected by the City of Austin's bluetooth travel sensor network. This dataset can be connected to the sensor output fieles to visualize travel time and speeds. See also: 
 [dataset query examples](#query-examples)
 
-**Download**
+#### Download
+
 - [data.austintexas.gov](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Routes/itsd-rizg)
 
-#### Individual Address Files (IAF)
+### Individual Address Files (IAF)
 
 Each row in this dataset represents a Bluetooth device that was detected by one of our sensors. Each record contains a detected device’s anonymized Media Access Control (MAC) address along with the time and location the device was detected. These records alone are not traffic data but can be post-processed to measure the movement of detected devices through the roadway network
 
-**Download**
+#### Download
+
 - [data.austintexas.gov](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Addresses/qnpj-zrb9/data)
 
 - [data.world](https://data.world/ctr/atd-awam-iaf)
 
-#### Individual Traffic Match Files (ITMF)
+### Individual Traffic Match Files (ITMF)
 
 Each row in this dataset represents one Bluetooth enabled device that detected at two locations in the roadway network. Each record contains a detected device’s anonymized Media Access Control (MAC) address along with contain information about origin and destination points at which the device was detected, as well the time, date, and distance traveled.
 
-**Download**
+#### Download
+
 - [data.austintexas.gov]( https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Individual-Traffic-Matche/x44q-icha/data)
 
 - [data.world](https://data.world/ctr/atd-awam-itmf)
 
-**Column Descriptions**
+#### Column Descriptions
 
 **record_id**: The unique record identifer generated as an MD5 hash of the row contents
 
