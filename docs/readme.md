@@ -1,6 +1,6 @@
 # ATX Hack the Traffic Docs
 
-- [Download Data](#dowload-data)
+- [Download Data](#download-data)
 
 - [Column Descriptions](#column-descriptions)
 
@@ -50,7 +50,7 @@ The traffic summary records contain aggregate travel time and speed summaries ba
 
 
 ## Query Examples
-A few sample queries to get you started with Austin's Bluetooth data. These queries use the Socrata Open Data API (SODA) to fetch data from the City of Austin's [data portal](http://data.austinetxas.gov).
+These queries use the [Socrata Open Data API (SODA)](https://dev.socrata.com/consumers/getting-started.html) to fetch data from the City of Austin's [data portal](http://data.austinetxas.gov).
 
 1. Return top 10 most recent rows from weekdays 
     ```sql
