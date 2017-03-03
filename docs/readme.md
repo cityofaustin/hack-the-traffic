@@ -6,9 +6,8 @@
     * [Traffic Match Summary Records (TMSR)](#traffic-match-summary-records-tmsr)
     * [Travel Sensor Locations](#travel-sensor-locations)
     * [Travel Sensor Route Segments](#travel-sensor-route-segments)
-
  * [Data Portal (Socrata) Query Examples](#query-examples)
- * [Route Index](#routes)
+ * [Route Index](#route-index)
  * [Glossary](#glossary)
 
 ## Dataset Documentation
@@ -136,7 +135,8 @@ These queries use the [Socrata Open Data API (SODA)](https://dev.socrata.com/con
     |> SELECT origin_reader_identifier, total_valid/total AS pct_valid ORDER BY pct_valid ASC
     ```
 
-## Routes
+## Route Index
+
 You can plug these route objects into queries to find traffic matches along specific routes. The `segment_name` field in returned in the [example queries](#query-examples) is a concatenation of the origin and destination reader IDs, and can be used to join data to the `segment_name` field in the [route geoJSON](http://github.com/cityofaustin/hack-the-traffic/mapping_workshop/data/austin_bt_routes.csv) file.
 
 #### Guadalupe Northbound
