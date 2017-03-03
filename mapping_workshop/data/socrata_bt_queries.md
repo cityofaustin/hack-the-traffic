@@ -12,6 +12,7 @@ A few sample queries to get you started with Austins Bluetooth data. These queri
     https://data.austintexas.gov/resource/922j-6afw.json?
     $query=SELECT * WHERE UPPER(day_of_week) NOT IN('SATURDAY', 'SUNDAY') ORDER BY start_time DESC LIMIT 10
     ```
+    
 2. Return the maximum 'valid' speed for each origin reader
     ```sql
     https://data.austintexas.gov/resource/922j-6afw.json?
@@ -38,7 +39,7 @@ A few sample queries to get you started with Austins Bluetooth data. These queri
     |> SELECT start_time, day_of_week, speed_miles_per_hour, segment_name WHERE start_time LIKE('%25T16:%25')  OR start_time LIKE('%25T17:%25') OR start_time LIKE('%25T18:%25') 
     |> SELECT segment_name, AVG(speed_miles_per_hour), COUNT(*) GROUP BY segment_name
     ```
-    
+
 6. Compute percentage of valid matches for all sensors with matches
     ```sql
     https://data.austintexas.gov/resource/922j-6afw.json?
