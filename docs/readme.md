@@ -6,6 +6,8 @@
 
 - [Data Portal (Socrata) Query Examples](#query-examples)
 
+- [Route Index](#routes)
+
 ## Download Data
 The sensor data is available in three datasets:
 
