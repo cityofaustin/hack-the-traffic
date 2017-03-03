@@ -1,6 +1,5 @@
 # Austin Bluetooth Travel Sensor Data Documentation
 
- * [Glossary](#glossary)
  * [Dataset Documentation](#dataset-documentation)
     * [Individual Address Files (IAF)](#individual-address-files-iaf)
     * [Inidividual Traffic Match Files (ITFM)](#individual-traffic-match-files-itmf)
@@ -10,16 +9,7 @@
 
  * [Data Portal (Socrata) Query Examples](#query-examples)
  * [Route Index](#routes)
-
-## Glossary
-
-*device*: A Bluetooth-enabled device detected by a sensor.
-
-*host*: A centralized server that receives data from the sensor network and generates the output data files.
-
-*reader*: AKA *sensor*, *travel sensor*, *field device* The hardware that detects Bluetooth-enabled devices and transmits the device address and timestamp to a central server. 
-
-*sensor*: AKA *reader*, *travel sensor*, *field device*. The hardware that detects Bluetooth-enabled devices and transmits the device address and timestamp to a central server. 
+ * [Glossary](#glossary)
 
 ## Dataset Documentation
 
@@ -198,3 +188,14 @@ You can plug these route objects into queries to find traffic matches along spec
 ```
 ("guadalupe_27th$guadalupe_26th","guadalupe_26th$guadalupe_24th","guadalupe_24th$guadalupe_21st","guadalupe_21st$mlk_guadalupe","mlk_guadalupe$guadalupe_15th","congress_11th$congress_6th","congress_6th$congress_5th","congress_5th$congress_cesar_chavez","congress_cesar_chavez$riverside_congress","riverside_congress$congress_elizabeth","congress_elizabeth$congress_oltorf","congress_oltorf$congress_benwhite","congress_benwhite$congress_stassney","congress_stassney$congress_wm_cannon","congress_wm_cannon$congress_slaughter","lamar_parmer$lamar_braker","lamar_braker$lamar_rundberg","lamar_rundberg$lamar_payton_gin","lamar_payton_gin$lamar_morrow","lamar_morrow$lamar_airport","lamar_airport$lamar_koenig","lamar_koenig$lamar_51st","lamar_51st$lamar_45th","lamar_45th$lamar_38th","lamar_38th$lamar_29th","lamar_29th$lamar_24th","lamar_24th$lamar_mlk","lamar_mlk$lamar_12th","lamar_12th$lamar_6th","lamar_6th$lamar_5th","lamar_5th$lamar_riverside","lamar_riverside$lamar_barton_springs","lamar_barton_springs$lamar_lamar_square","lamar_lamar_square$lamar_oltorf","lamar_oltorf$Lamar_Blue_Bonnet","Lamar_Blue_Bonnet$Lamar_and_Manchca_Barton_skyway","Lamar_and_Manchca_Barton_skyway$lamar_panther","lamar_panther$us290_wm_cannon","us290_wm_cannon$us290_tx71","us290_tx71$tx71_silvermine","lavaca_6th$lavaca_5th","lavaca_5th$cesar_chavez_lavaca","cesar_chavez_lavaca$south_1st_barton_spring","south_1st_barton_spring$south_1st_oltorf","south_1st_oltorf$south_1st_benwhite","south_1st_benwhite$south_1st_st_elmo","south_1st_st_elmo$south_1st_stassney","south_1st_stassney$south_1st_wm_cannon","south_1st_wm_cannon$south_1st_slaughter")
 ```
+
+
+## Glossary
+
+*device*: A Bluetooth-enabled device detected by a sensor.
+
+*host*: A centralized server that receives data from the sensor network and generates the output data files.
+
+*reader*: AKA *sensor*, *travel sensor*, *field device* The hardware that detects Bluetooth-enabled devices and transmits the device address and timestamp to a central server. 
+
+*sensor*: AKA *reader*, *travel sensor*, *field device*. The hardware that detects Bluetooth-enabled devices and transmits the device address and timestamp to a central server. 
