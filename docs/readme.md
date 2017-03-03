@@ -6,7 +6,7 @@
     * [Traffic Match Summary Records (TMSR)](#traffic-match-summary-records-tmsr)
     * [Travel Sensor Locations](#travel-sensor-locations)
     * [Travel Sensor Route Segments](#travel-sensor-route-segments)
- * [Data Portal (Socrata) Query Examples](#query-examples)
+ * [Query Examples](#query-examples)
  * [Route Index](#route-index)
  * [Glossary](#glossary)
 
@@ -134,7 +134,6 @@ These queries use the [Socrata Open Data API (SODA)](https://dev.socrata.com/con
     |> SELECT origin_reader_identifier, COUNT(origin_reader_identifier) AS total, SUM(valid) AS total_valid GROUP BY origin_reader_identifier
     |> SELECT origin_reader_identifier, total_valid/total AS pct_valid ORDER BY pct_valid ASC
     ```
-
 ## Route Index
 
 You can plug these route objects into queries to find traffic matches along specific routes. The `segment_name` field in returned in the [example queries](#query-examples) is a concatenation of the origin and destination reader IDs, and can be used to join data to the `segment_name` field in the [route geoJSON](http://github.com/cityofaustin/hack-the-traffic/mapping_workshop/data/austin_bt_routes.csv) file.
