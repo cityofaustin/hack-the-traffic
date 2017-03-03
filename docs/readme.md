@@ -1,5 +1,6 @@
 # Austin Bluetooth Travel Sensor Data Documentation
 
+ * [Glossary](#glossary)
  * [Dataset Documentation](#dataset-documentation)
     * [Individual Address Files (IAF)](#individual-address-files-iaf)
     * [Inidividual Traffic Match Files (ITFM)](#individual-traffic-match-files-itmf)
@@ -9,6 +10,16 @@
 
  * [Data Portal (Socrata) Query Examples](#query-examples)
  * [Route Index](#routes)
+
+## Glossary
+
+*device*: A Bluetooth-enabled device detected by a sensor.
+
+*host*: A centralized server that receives data from the sensor network and generates the output data files.
+
+*reader*: AKA *sensor*, *travel sensor*, *field device* The hardware that detects Bluetooth-enabled devices and transmits the device address and timestamp to a central server. 
+
+*sensor*: AKA *reader*, *travel sensor*, *field device*. The hardware that detects Bluetooth-enabled devices and transmits the device address and timestamp to a central server. 
 
 ## Dataset Documentation
 
