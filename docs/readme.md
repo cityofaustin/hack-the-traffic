@@ -1,21 +1,20 @@
 # Austin Bluetooth Travel Sensor Data Documentation
 
- * Dataset Documentation
-    * [a](travel-sensor-locations)
-    * [b](travel-sensor-route-segments)
-    * [c](individual-address-files-(iaf))
-    * [d](individual-traffic-match-files-(itmf))
-    * [e](traffic-match-summary-records-(tmsr))
+ * [Dataset Documentation](#dataset-documentation)
+    * [Individual Address Files (IAF)](#individual-address-files-(iaf))
+    * [Inidividual Traffic Match Files (ITFM)](#individual-traffic-match-files-(itmf))
+    * [Traffic Match Summary Records (TMSR)](#traffic-match-summary-records-(tmsr))
+    * [Travel Sensor Locations](#travel-sensor-locations)
+    * [Travel Sensor Route Segments](#travel-sensor-route-segments)
 
- * [Column Descriptions](#column-descriptions)
  * [Data Portal (Socrata) Query Examples](#query-examples)
  * [Route Index](#routes)
 
-## Download Data
+## Dataset Documentation
 
 #### Travel Sensor Locations
 
-Information about the location of Bluetooth travel sensors in Austin, TX.
+This dataset contains information about the location of Bluetooth travel sensors in Austin, TX.
 
 **Download**
 - [data.austintexas.gov](https://data.austintexas.gov/dataset/Travel-Sensors/6yd9-yz29)
