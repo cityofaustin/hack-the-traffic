@@ -1,4 +1,54 @@
-mapping workshop notes
+outline:
+
+- download repo and unzip it or go to repo
+
+- course overview
+
+- data overview
+    - focus on individual traffic matches
+
+- socrata API crash course
+    - get an endpoint
+    - output formats
+    - queries
+        simple
+        harder
+
+- web mapping crash course 
+    - intro to geojson (and JSON)
+    - spatial data resources and libs
+    - carto
+
+- quick-hosted web page
 
 
-1. 
+
+
+CARTO
+1. Sign Up / Login
+2. Switch to 'Datasets' view by clicking near your name in top-left corner
+3. Click 'new dataset' and browse to the geojson location on your computer
+4. Repeat for route data (or connect directly to dataset using JSON version)
+5. Merge Datasets!
+6. Merg successful? Sweet! Switch to map view
+7. apply a filter to the map:
+- SELECT * FROM [your table name here] WHERE avg_speed_miles_per_hour > 0
+
+
+8. here's a different query! can you make another map? compare?
+
+
+9. instructions for embedding
+
+
+
+
+
+
+
+
+
+
+
+
+
