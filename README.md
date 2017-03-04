@@ -2,8 +2,16 @@
 Sat, March 4, 2017
 12:00 PM – 6:00 PM CST
 
-## Register for Our Event
-Let us know you're coming by registering on our [Eventbrite Page](https://www.eventbrite.com/e/atx-hack-the-traffic-registration-31722953207?)
+## Schedule
+
+ * 11:45AM Grab a sandwhich
+ * 12:00PM Opening Remarks and Breakout
+ * 1:15PM Bashing Bluetooth Workshop with Itamar Gal (45 min)
+ * 1:30PM Cookies and Robots Workshop #1 (2 hrs)
+ * 2:15PM Map the Traffic Workshop (45 min)
+ * 3:30PM Cookies and Robotos Workshop #2 (2 hrs)
+ * 5:00PM Reconvene and Report Out
+ * 6:00PM Goodbye!
 
 ## Communicate with Your Fellow Hackers
 
