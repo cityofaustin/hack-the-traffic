@@ -59,4 +59,4 @@ The traffic data in this hackathon is fundamentally geospatial in nature. Write 
 
 #### Write Docs, Open Issues, Ask Questions
 
-We need your help writing documentation about our data. What is the best way to organize information about our Bluetooth Data? What questions do you have about the data that the City can help you with? Are there data quality issues or holes? 
+We need your help writing documentation about our data. What is the best way to organize information about our Bluetooth Data? What questions do you have about the data that the City can help you with? Are there data quality issues or holes? Open a new issue on our github page, or send us a pull request to add content.
