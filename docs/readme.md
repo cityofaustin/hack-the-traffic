@@ -6,7 +6,8 @@
     * [Traffic Match Summary Records (TMSR)](#traffic-match-summary-records-tmsr)
     * [Travel Sensor Locations](#travel-sensor-locations)
     * [Travel Sensor Route Segments](#travel-sensor-route-segments)
- * [Socrata Query Examples](#socrata-api-query-examples)
+ * [API Documentation](#api-documentation)
+    * [Socrata Query Examples](#socrata-api-query-examples)
  * [Route Index](#route-index)
  * [Glossary](#glossary)
 
@@ -91,7 +92,12 @@ See also: [Route Index](#routes)
 
  - [data.austintexas.gov](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Routes/itsd-rizg)
 
-## Socrata API Query Examples
+## API Documentation
+
+- [Data.World API](https://docs.data.world/documentation/api/)
+- [Socrata Open Data API (SODA)](https://dev.socrata.com/docs/endpoints.html)
+
+### Socrata API Query Examples
 These queries use the [Socrata Open Data API (SODA)](https://dev.socrata.com/consumers/getting-started.html) to fetch data from the City of Austin's [data portal](http://data.austinetxas.gov). We'll use a few of them in the [Map the Traffic workshop](https://github.com/cityofaustin/hack-the-traffic/tree/master/mapping_workshop).
 
 1. Return top 10 most recent rows from weekdays 
