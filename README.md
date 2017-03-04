@@ -30,7 +30,7 @@ Sat, March 4, 2017
 
 2. Join the [#HackTheTraffic](https://open-austin.slack.com/messages/hackthetraffic/) channel
 
-## Data Download and Documentation
+## Data and Documentation
 Data documentation and download links are available in the [docs folder](https://github.com/cityofaustin/hack-the-traffic/tree/master/docs)
 
 ## Project Ideas
