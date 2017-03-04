@@ -6,7 +6,7 @@
     * [Traffic Match Summary Records (TMSR)](#traffic-match-summary-records-tmsr)
     * [Travel Sensor Locations](#travel-sensor-locations)
     * [Travel Sensor Route Segments](#travel-sensor-route-segments)
- * [Query Examples](#socrata-api-query-examples)
+ * [Socrata Query Examples](#socrata-api-query-examples)
  * [Route Index](#route-index)
  * [Glossary](#glossary)
 
