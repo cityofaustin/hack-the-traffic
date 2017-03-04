@@ -22,7 +22,7 @@ Sat, March 4, 2017
 2:15PM Map the Traffic Workshop (45 min)  
 3:30PM Cookies and Robotos Workshop #2 (2 hrs)  
 5:00PM Reconvene and Report Out  
-6:00PM Goodbye!  
+6:00PM Data Lovers' Happy Hour at TBD
 
 ## Communicate with Your Fellow Hackers
 
