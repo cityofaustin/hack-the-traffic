@@ -5,6 +5,7 @@ Sat, March 4, 2017
 @ [Galvanize Austin](http://www.galvanize.com/campuses/austin-2nd-street-district/) - 118 Nueces Street, Austin, TX 78701  
 
 WiFi: galvanize guest
+
 No password - requires name and email
 
 ## Sponsors
