@@ -57,6 +57,6 @@ This hackathon is centered around a number of data files produced by a growing n
 The traffic data in this hackathon is fundamentally geospatial in nature. Write a web-application to visualize the Austin transportation network in a way that incorporates the sensor data. Feel free to include other geospatial datasets to tell an interesting story. Also feel free to integrate other forms of data visualization such as charts or graphs.
 
 
-#### O/D Data and Simulation
+#### Write Docs, Open Issues, Ask Questions
 
-Traffic planning analysis frequently requires what is called an origin-destination (OD) matrix, which specifies the travel demands between the origin and destination nodes in the transportation network. Derive a dynamic OD matrix from the Bluetooth data in a format than can be input to a FOSS microsimulator.
+We need your help writing documentation about our data. What is the best way to organize information about our Bluetooth Data? What questions do you have about the data that the City can help you with? Are there data quality issues or holes? 
