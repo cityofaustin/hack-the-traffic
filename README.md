@@ -1,18 +1,8 @@
 # ATX Hack the Traffic
 
-A transportation-themed hackathon hosted by the City of Austin and the UT Center for Transportation Research (CTR).
-
 Sat, March 4, 2017  
 12:00 PM – 6:00 PM CST  
 @ [Galvanize Austin](http://www.galvanize.com/campuses/austin-2nd-street-district/) - 118 Nueces Street, Austin, TX 78701  
-[Registration Page](https://www.eventbrite.com/e/atx-hack-the-traffic-registration-31722953207?)
-
- * [Our Sponors](#sponsors)
- * [Schedule](#schedule)
- * [Communicate](#communicate-with-your-fellow-hackers)
- * [Our Sponors](#sponsors)
- * [Data and Docs](#data-download-and-documentation)
- * [Project Ideas](#project-ideas)
 
 ## Sponsors
 
