@@ -6,7 +6,7 @@
     * [Traffic Match Summary Records (TMSR)](#traffic-match-summary-records-tmsr)
     * [Travel Sensor Locations](#travel-sensor-locations)
     * [Travel Sensor Route Segments](#travel-sensor-route-segments)
- * [Query Examples](#query-examples)
+ * [Query Examples](#socrata-api-query-examples)
  * [Route Index](#route-index)
  * [Glossary](#glossary)
 
@@ -35,7 +35,7 @@ Each row in this dataset represents a Bluetooth device that was detected by one 
 
 ### Individual Traffic Match Files (ITMF)
 
-Each row in this dataset represents one Bluetooth enabled device that detected at two locations in the roadway network. Each record contains a detected device’s anonymized Media Access Control (MAC) address along with contain information about origin and destination points at which the device was detected, as well the time, date, and distance traveled.
+Each row in this dataset represents one Bluetooth enabled device that was detected at two locations in the roadway network. Each record contains a detected device’s anonymized Media Access Control (MAC) address along with information about origin and destination points at which the device was detected, as well the time, date, and distance traveled.
 
 #### Download
 
@@ -91,7 +91,7 @@ See also: [Route Index](#routes)
 
  - [data.austintexas.gov](https://data.austintexas.gov/dataset/Bluetooth-Travel-Sensors-Routes/itsd-rizg)
 
-## Query Examples
+## Socrata API Query Examples
 These queries use the [Socrata Open Data API (SODA)](https://dev.socrata.com/consumers/getting-started.html) to fetch data from the City of Austin's [data portal](http://data.austinetxas.gov).
 
 1. Return top 10 most recent rows from weekdays 
