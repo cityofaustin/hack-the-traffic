@@ -6,23 +6,23 @@ Sat, March 4, 2017
 
 ## Sponsors
 
- * [Galvanize Austin](http://www.galvanize.com/campuses/austin-2nd-street-district/)  
- * [data.world](http://data.world)  
- * [Open Austin](http://open-austin.org)  
- * [The Texas Advanced Computing Center (TACC)](http://tacc.utexas.edu)  
- * [Data Rodeo](http://datarodeo.org)  
+[Galvanize Austin](http://www.galvanize.com/campuses/austin-2nd-street-district/)  
+[data.world](http://data.world)  
+[Open Austin](http://open-austin.org)  
+[The Texas Advanced Computing Center (TACC)](http://tacc.utexas.edu)  
+[Data Rodeo](http://datarodeo.org)  
 
 
 ## Schedule
 
- * 11:45AM Grab a sandwhich
- * 12:00PM Opening Remarks and Breakout
- * 1:15PM Bashing Bluetooth Workshop (45 min)
- * 1:30PM Cookies and Robots Workshop #1 (2 hrs)
- * 2:15PM Map the Traffic Workshop (45 min)
- * 3:30PM Cookies and Robotos Workshop #2 (2 hrs)
- * 5:00PM Reconvene and Report Out
- * 6:00PM Goodbye!
+11:45AM Grab a sandwhich
+12:00PM Opening Remarks and Breakout
+1:15PM Bashing Bluetooth Workshop (45 min)
+1:30PM Cookies and Robots Workshop #1 (2 hrs)
+2:15PM Map the Traffic Workshop (45 min)
+3:30PM Cookies and Robotos Workshop #2 (2 hrs)
+5:00PM Reconvene and Report Out
+6:00PM Goodbye!
 
 ## Communicate with Your Fellow Hackers
 
