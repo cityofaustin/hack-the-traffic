@@ -10,7 +10,7 @@ Sat, March 4, 2017
 
  * 11:45AM Grab a sandwhich
  * 12:00PM Opening Remarks and Breakout
- * 1:15PM Bashing Bluetooth Workshop with Itamar Gal (45 min)
+ * 1:15PM Bashing Bluetooth Workshop (45 min)
  * 1:30PM Cookies and Robots Workshop #1 (2 hrs)
  * 2:15PM Map the Traffic Workshop (45 min)
  * 3:30PM Cookies and Robotos Workshop #2 (2 hrs)
