@@ -26,9 +26,7 @@ Sat, March 4, 2017
 
 ## Communicate with Your Fellow Hackers
 
-1. Add yourself to [Open Austin's Slack Team](http://slack.open-austin.org)
-
-2. Join the [#HackTheTraffic](https://open-austin.slack.com/messages/hackthetraffic/) channel
+Add yourself to [Open Austin's Slack Team](http://slack.open-austin.org) and join the [#HackTheTraffic](https://open-austin.slack.com/messages/hackthetraffic/) channel
 
 ## Data and Documentation
 Data documentation and download links are available in the [docs folder](https://github.com/cityofaustin/hack-the-traffic/tree/master/docs)
