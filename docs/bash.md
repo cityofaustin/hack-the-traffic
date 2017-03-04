@@ -11,10 +11,7 @@
  * [Filtering and Processing the Data](#filtering-and-processing-the-data)
     * [grep and cut](#grep-and-cut)
     * [sort and diff](#sort-and-diff)
-    * [read and bash](#bash-itself)
-    * [sed and awk](#sed-and-awk)
- * [Performing Calculations](#performing-calculations)
-
+    * [read and bash](#read-and-bash)
 
 ## Downloading Data
 
@@ -327,6 +324,24 @@ ff02e661588edc2384746d6144193dc1,1451649600,1451649351,anderson_mill_us183,20:e0
 469efa8973fbce822408d697f19f25f2,1451649603,1451649354,guadalupe_21st,bf:cc:02:eb:c3
 860910897d30d5d76f25636ce425639e,1451649603,1451643409,south_1st_oltorf,14:50:b9:b8:e5
 1c1c0ec122eea8a595b56a28521a48b3,1451649604,1451649355,mlk_lavaca,c0:0e:43:31:5c
+
+[...]
+```
+
+While at first glance this may not seem more useful than the `cat` command, the difference is that we have programmatic access to each line during the iteration via the `line` variable, so instead of just printing the line we can do something useful with it. Here's an example where we combine the previous loop with `grep` and `wc` to count the number of times that each device appears in the file:
+
+```shell
+$ cat Austin_bt_01-01-2016-devices.csv | while read line; do grep $line Austin_bt_01-01-2016.csv | wc -l; done
+2
+1
+1
+1
+3
+3
+1
+3
+8
+4
 
 [...]
 ```
