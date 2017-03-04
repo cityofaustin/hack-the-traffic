@@ -137,7 +137,7 @@ These queries use the [Socrata Open Data API (SODA)](https://dev.socrata.com/con
 
 ## Route Index
 
-You can plug these route objects into queries to find traffic matches along specific routes. The `segment_name` field in returned the [example queries](#query-examples) is a concatenation of the origin and destination reader IDs, and can be used to join data to the `segment_name` field in the [route geoJSON](http://github.com/cityofaustin/hack-the-traffic/mapping_workshop/data/austin_bt_routes.csv) file.
+You can plug these route objects into queries to find traffic matches along specific routes. The `segment_name` field returned in the [example queries](#query-examples) is a concatenation of the origin and destination reader IDs, and can be used to join data to the `segment_name` field in the [route geoJSON](http://github.com/cityofaustin/hack-the-traffic/mapping_workshop/data/austin_bt_routes.csv) file.
 
 #### Guadalupe Northbound
 ```
