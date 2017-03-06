@@ -86,7 +86,7 @@ $ du --human-readable Austin_bt_01-01-2016.csv
 21M Austin_bt_01-01-2016.csv
 ```
 
-So the file is (approximately) 21 megabytes. Suppose instead of bytes we want to know how many rows of data we have. For this we can use the `wc` command (word count). `wc` counts the number of lines, words, and lines in a text file:
+So the file is (approximately) 21 megabytes. Suppose instead of bytes we want to know how many rows of data we have. For this we can use the `wc` command (word count). `wc` counts the number of lines, words, and bytes in a text file:
 
 ```shell
 $ wc Austin_bt_01-01-2016.csv
