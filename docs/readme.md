@@ -9,8 +9,8 @@
  * [API Documentation](#api-documentation)
     * [Socrata Query Examples](#socrata-api-query-examples)
  * [Route Index](#route-index)
- * [FAQ](#frequently-asked-questions)
  * [Glossary](#glossary)
+ * [FAQ](#frequently-asked-questions)
 
 ## Dataset Documentation
 
