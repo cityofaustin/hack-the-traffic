@@ -9,6 +9,7 @@
  * [API Documentation](#api-documentation)
     * [Socrata Query Examples](#socrata-api-query-examples)
  * [Route Index](#route-index)
+ * [FAQ](#frequently-asked-questions)
  * [Glossary](#glossary)
 
 ## Dataset Documentation
@@ -194,3 +195,15 @@ You can plug these route objects into queries to find traffic matches along spec
 *reader*: AKA *sensor*, *travel sensor*, *field device* The hardware that detects Bluetooth-enabled devices and transmits the device address and timestamp to a central server. 
 
 *sensor*: AKA *reader*, *travel sensor*, *field device*. The hardware that detects Bluetooth-enabled devices and transmits the device address and timestamp to a central server. 
+
+
+
+## Frequently Asked Questions
+
+#### Are those real MAC addresses? How are they created?
+No, there are no real MAC addresses in the Bluetooth sensor data. Instead, MAC addresses are generated randomly on a daily basis. The MAC address mapping is retained for one day so that OD pairs can be identified for a 24-hour period. 
+
+View [the code that we use to anonymize the MAC addresses](https://github.com/cityofaustin/transportation-data-publishing/blob/master/bt_anonymize.py)
+
+#### How do you calculate direction and segment lengths?
+These fields are not calculated, but rather they are segment parameters that we manually input into the Bluetooth sensor host software.
