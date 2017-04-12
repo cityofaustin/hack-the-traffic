@@ -1,12 +1,8 @@
 # ATX Hack the Traffic
 
-Sat, March 4, 2017  
-12:00 PM – 6:00 PM CST  
-@ [Galvanize Austin](http://www.galvanize.com/campuses/austin-2nd-street-district/) - 118 Nueces Street, Austin, TX 78701  
+Thanks for visiting ATX Hack the Traffic!
 
-WiFi: galvanize guest
-
-No password - requires name and email
+Our next hack event will be taking place at [ATX Hack for Change](https://www.google.com/search?q=hack4change&ie=utf-8&oe=utf-8) from June 2-4. In the meantime, feel free to find us on Slack at [#HackTheTraffic](https://open-austin.slack.com/messages/hackthetraffic/) or drop us a line at [transportation.data@austintexas.gov](mailto:transportation.data@austintexas.gov).
 
 ## Sponsors
 
