@@ -6,9 +6,9 @@ Our next event will be at [ATX Hack for Change](http://atxhackforchange.org/) on
 
 Read about our March 2017 Hackathon [here]().
 
-## 2017 Event Schedule
- * [Hack the Traffic 1.0]() - March 4
- * [ATX Hack for Change]() - June 2 - 4
+## Event Schedule
+ * [Hack the Traffic 1.0]() - March 4, 2017
+ * [ATX Hack for Change]() - June 2 - 4, 2017
  * [Transportation Data Challenge]() - Fall 2017
 
 ## Data and Documentation
