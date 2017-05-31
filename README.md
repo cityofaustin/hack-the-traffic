@@ -4,7 +4,12 @@ ATX Hack the Traffic is a hackathon series that seeks to use data and technology
 
 Our next event will be at [ATX Hack for Change](http://atxhackforchange.org/) on June 2nd. Visit our [Open Source Traffic Sensor]() repo for details about the Hack for Change project.
 
-Read about our February 2017 Hackathon [here]().
+Read about our March 2017 Hackathon [here]().
+
+## 2017 Event Schedule
+ * [Hack the Traffic 1.0]() - March 4
+ * [ATX Hack for Change]() - June 2 - 4
+ * [Transportation Data Challenge]() - Fall 2017
 
 ## Data and Documentation
 Data documentation and download links are available in the [docs folder](https://github.com/cityofaustin/hack-the-traffic/tree/master/docs)
