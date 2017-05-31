@@ -4,8 +4,6 @@ ATX Hack the Traffic is a hackathon series that seeks to use data and technology
 
 Our next event will be at [ATX Hack for Change](http://atxhackforchange.org/) on June 2nd. Visit our [Open Source Traffic Sensor]() repo for details about the Hack for Change project.
 
-Read about our March 2017 Hackathon [here]().
-
 ## Event Schedule
  * [Hack the Traffic 1.0]() - March 4, 2017
  * [ATX Hack for Change]() - June 2 - 4, 2017
