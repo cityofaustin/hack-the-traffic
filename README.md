@@ -11,9 +11,6 @@ Read about our March 2017 Hackathon [here]().
  * [ATX Hack for Change]() - June 2 - 4, 2017
  * [Transportation Data Challenge]() - Fall 2017
 
-## Data and Documentation
-Data documentation and download links are available in the [docs folder](https://github.com/cityofaustin/hack-the-traffic/tree/master/docs)
-
 ## Talk to Us
 Catch up with us on [Open Austin's](http://open-austin.org) Slack channel [#HackTheTraffic](https://open-austin.slack.com/messages/hackthetraffic/).
 
