@@ -1,8 +1,7 @@
-# ATX Hack the Traffic
+# ATX Hack the Traffic - March 4, 2017
 
-Thanks for visiting ATX Hack the Traffic!
+Our March 4th event was the first in a series of hackathons events that comprise ATX Hack the Traffic. View our other events [here](https://github.com/cityofaustin/hack-the-traffic).
 
-Our next hack event will be taking place at [ATX Hack for Change](https://www.google.com/search?q=hack4change&ie=utf-8&oe=utf-8) from June 2-4. In the meantime, feel free to find us on Slack at [#HackTheTraffic](https://open-austin.slack.com/messages/hackthetraffic/) or drop us a line at [transportation.data@austintexas.gov](mailto:transportation.data@austintexas.gov).
 
 ## Sponsors
 
