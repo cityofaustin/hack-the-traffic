@@ -15,6 +15,3 @@ Our next event will be at [ATX Hack for Change](http://atxhackforchange.org/) on
 Catch up with us on [Open Austin's](http://open-austin.org) Slack channel [#HackTheTraffic](https://open-austin.slack.com/messages/hackthetraffic/).
 
 Email us at [transportation.data@austintexas.gov](mailto:transportation.data@austintexas.gov).
-
-
-
